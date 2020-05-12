@@ -1,0 +1,34 @@
+{
+  "name": "star-generator",
+  "version": "0.1.0",
+  "description": "A simple Front-end lib that draws stars in your project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srvaz/star-generator.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "front-end",
+    "star",
+    "generator",
+    "space",
+    "canvas",
+    "open-source",
+    "es6",
+    "vanilla"
+  ],
+  "author": "srvaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srvaz/star-generator/issues"
+  },
+  "homepage": "https://github.com/srvaz/star-generator#readme",
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  }
+}
