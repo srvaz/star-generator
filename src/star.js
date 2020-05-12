@@ -38,7 +38,8 @@ const starColor = (temperature) => {
  * @param  {Object} starProps
  */
 export const drawStar = (canvasContext, starProps) => {
-  const { size, offsetX, offsetY } = starProps;
+  const { offsetX, offsetY } = starProps;
+  const size = randomLimit(2, 5);
   const grdCord = gradientCoordinates(size, offsetX, offsetY);
   const grd = canvasContext.createRadialGradient(...grdCord);
 
